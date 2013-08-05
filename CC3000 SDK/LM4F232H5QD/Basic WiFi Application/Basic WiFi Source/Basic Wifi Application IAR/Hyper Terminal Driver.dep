@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1404512564</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispatcher.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\Hyper Terminal Driver.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>C:\StellarisWare\inc\hw_nvic.h</file>
+      <file>C:\StellarisWare\driverlib\pin_map.h</file>
+      <file>C:\StellarisWare\driverlib\udma.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$PROJ_DIR$\..\Source\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>C:\StellarisWare\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.h</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.c</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.h</file>
+      <file>C:\StellarisWare\driverlib\gpio.h</file>
+      <file>C:\StellarisWare\inc\hw_uart.h</file>
+      <file>C:\StellarisWare\inc\hw_memmap.h</file>
+      <file>C:\StellarisWare\driverlib\rom_map.h</file>
+      <file>C:\StellarisWare\driverlib\systick.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>C:\StellarisWare\utils\uartstdio.h</file>
+      <file>C:\StellarisWare\driverlib\uart.h</file>
+      <file>C:\StellarisWare\driverlib\sysctl.h</file>
+      <file>C:\StellarisWare\driverlib\interrupt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>C:\StellarisWare\inc\hw_ints.h</file>
+      <file>C:\StellarisWare\driverlib\rom.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 2 16 15 17 6 34 5 13 7 0 18 33 1 35 8 24 14 22 9 23 31 36 30 10 29 19 11 27 32 12 25 26 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

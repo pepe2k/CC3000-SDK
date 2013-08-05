@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1444159188</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\strlib\strlib.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Host Driver.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000_Spi.r43</file>
+      <file>$PROJ_DIR$\..\source\Board Config\board.c</file>
+      <file>$PROJ_DIR$\..\source\Board Config\board.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\cc3000.c</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\cc3000.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\common.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\config_defs.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\cosm\cosm.c</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\cosm\cosm.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\demo.c</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\demo_config.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\fram_sensors\sensors.c</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\fram_sensors\sensors.h</file>
+      <file>$PROJ_DIR$\..\source\DemoApp\strlib\strlib.h</file>
+      <file>$PROJ_DIR$\Debug\List\demo.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\List\demo.s43</file>
+      <file>$PROJ_DIR$\Debug\List\strlib.s43</file>
+      <file>$PROJ_DIR$\Debug\List\cc3000.lst</file>
+      <file>$PROJ_DIR$\Debug\List\sensors.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cosm.s43</file>
+      <file>$PROJ_DIR$\Debug\List\board.s43</file>
+      <file>$PROJ_DIR$\Debug\List\sensors.s43</file>
+      <file>$PROJ_DIR$\Debug\List\strlib.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cosm.map</file>
+      <file>$PROJ_DIR$\Debug\List\cosm.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cc3000.s43</file>
+      <file>$PROJ_DIR$\Debug\List\board.lst</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\netapp.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\strlib.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\vee_lnk430fr5739.xcl</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\socket.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\nvmem.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\hci.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\cosm.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430fr5739.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cosm.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cosm.r43</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\wlan.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cosm.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\evnt_handler.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\strlib.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\errno.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 52 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\DemoApp\strlib\strlib.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 28 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 46 43 20 61 59 37 58 38 65 0 44 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 46 43 20 61 59 37 58 38 65 0 44 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Board Config\board.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 32 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 33 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 33 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\DemoApp\cc3000.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 31 23 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 33 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 7 44 15 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 33 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 7 44 15 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\DemoApp\cosm\cosm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 30 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 68 54 49 2 9 33 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 7 44 15 11 13 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 54 49 2 9 33 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 7 44 15 11 13 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\DemoApp\demo.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 19 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 68 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 33 9 7 44 15 11 13 18 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 54 49 2 63 60 57 46 43 20 61 59 37 58 38 70 67 66 45 40 41 10 33 9 7 44 15 11 13 18 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\DemoApp\fram_sensors\sensors.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 27 24 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 49 2 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 49 2 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\cosm.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 39 34 4 5 1 47 62 51 56 36 35</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

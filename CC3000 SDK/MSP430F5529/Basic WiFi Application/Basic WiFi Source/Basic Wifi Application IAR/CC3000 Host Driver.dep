@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2044359451</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\host_driver_version.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\netapp.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\netapp.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\nvmem.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\nvmem.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\security.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\security.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\socket.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\socket.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\List\security.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\security.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\netapp.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hci.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Host Driver.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\errno.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\List\os.lst</file>
+      <file>$PROJ_DIR$\Debug\List\wlan.lst</file>
+      <file>$PROJ_DIR$\Debug\List\evnt_handler.lst</file>
+      <file>$PROJ_DIR$\Debug\List\hci.lst</file>
+      <file>$PROJ_DIR$\Debug\List\netapp.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cc3000_common.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\List\socket.lst</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Host Driver.ulp</file>
+      <file>$PROJ_DIR$\..\Source\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\wlan.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\evnt_handler.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000_common.r43</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\os.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\os.r43</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\evnt_handler.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nvmem.r43</file>
+      <file>$PROJ_DIR$\Debug\List\nvmem.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\os.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\evnt_handler.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\wlan.c</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\wlan.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\netapp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 52 19 46 29 44 53 18 20 11 4 1 0 27 17 51 10 47 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\nvmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 43 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 19 46 29 44 53 18 20 11 41 52 6 0 27 17 51 1 10 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\security.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8 6 0 27 19 46 29 44 53 18 20 11 17 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\socket.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 19 46 29 44 53 18 20 11 41 52 27 1 0 17 51 10 47 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\CC3000 Host Driver.r43</name>
+      <inputs>
+        <tool>
+          <name>XAR</name>
+          <file> 36 35 15 14 42 13 40 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0 27 19 46 29 44 53 18 20 11 17 51 10 50 47 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\os.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 19 46 29 44 53 18 20 11 41 52 27 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XAR</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\evnt_handler.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0 27 19 46 29 44 53 18 20 11 17 51 52 1 47 10 50 4 31 32 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0 27 19 46 29 44 53 18 20 11 17 51 1 31 52 32 41 47 10 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000HostDriver\wlan.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 52 19 46 29 44 53 18 20 11 50 0 27 17 51 1 31 32 41 10 6 8 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

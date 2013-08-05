@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>801340994</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\source\Board\board.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\cc3000.c</file>
+      <file>$PROJ_DIR$\..\source\Board\board.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\cc3000.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\common.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\config_defs.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\demo.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\demo_config.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\sensors.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\sensors.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\server.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\server.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\strlib.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\strlib.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\terminal.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\terminal.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\uart.c</file>
+      <file>$PROJ_DIR$\..\source\Automation App\uart.h</file>
+      <file>$PROJ_DIR$\..\source\Automation App\version.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\wlan.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430fr5739.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\server.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\strlib.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\terminal.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\server.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\strlib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\terminal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Automation App.d43</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Automation App.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\CC3000 Automation App.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\errno.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\evnt_handler.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\hci.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\socket.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\nvmem.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\netapp.h</file>
+      <file>$PROJ_DIR$\..\source\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\source\CC3000HostDriver\security.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\source\Board\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 29 27 25 28 24 19 23 20 22 21 49 50 51 52 53 54 55 56 57 58 59 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\cc3000.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 59 29 27 25 28 24 19 23 20 22 21 49 50 51 52 53 54 55 56 57 58 4 2 62 7 5 17 9 15 60 61 63 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 29 27 25 28 24 19 23 20 22 21 49 50 51 52 53 54 55 56 57 58 4 59 3 9 2 62 17 7 5 15 11 18 60 61 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\sensors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 27 25 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\server.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 59 29 27 25 28 24 19 23 20 22 21 49 50 51 52 53 54 55 56 57 58 4 2 62 7 5 17 9 15 13 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\strlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 62 23 20 22 21 49 50 51 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\terminal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 29 27 25 4 62 23 20 22 21 49 50 51 52 17 3 59 28 24 19 53 54 2 13 15 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\source\Automation App\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 29 27 25 28 24 19 23 20 22 21 49 50 51 52 53 54 55 56 57 58 4 59 3 9 2 7 5 62 17 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

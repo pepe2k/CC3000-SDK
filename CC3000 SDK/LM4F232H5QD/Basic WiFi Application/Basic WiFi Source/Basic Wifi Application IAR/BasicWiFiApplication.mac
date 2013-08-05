@@ -1,0 +1,9 @@
+execUserReset()
+{
+    __writeMemory32(0x00001000, 0xE000ED08, "Memory");
+}
+
+execUserSetup()
+{
+    __writeMemory32(0x00001000, 0xE000ED08, "Memory");
+}

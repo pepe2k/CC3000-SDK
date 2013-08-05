@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3687848611</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>C:\StellarisWare\driverlib\udma.h</file>
+      <file>C:\StellarisWare\inc\hw_ssi.h</file>
+      <file>C:\StellarisWare\driverlib\rom.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>C:\StellarisWare\inc\hw_uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>C:\StellarisWare\inc\hw_ints.h</file>
+      <file>C:\StellarisWare\driverlib\ssi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.h</file>
+      <file>C:\StellarisWare\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000 Spi\spi.c</file>
+      <file>C:\StellarisWare\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000 Spi\spi_version.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\hci.h</file>
+      <file>C:\StellarisWare\driverlib\pin_map.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>C:\StellarisWare\inc\hw_memmap.h</file>
+      <file>C:\StellarisWare\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.h</file>
+      <file>C:\StellarisWare\inc\hw_nvic.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>C:\StellarisWare\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000Spi.a</file>
+      <file>C:\StellarisWare\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_spi\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>C:\StellarisWare\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\include\common\cc3000_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_spi\src\spi.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\CC3000 Spi\spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 25 27 12 38 7 1 19 40 35 32 3 2 0 9 18 33 22 14 6 36 30 21 16 28 4 24 11 10 26 23 5 8 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\cc3000_spi\src\spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 37 27 12 38 7 1 19 40 35 32 3 2 31 9 18 33 22 14 6 36 30 21 16 28 4 24 11 10 26 23 5 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>206178212</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>C:\StellarisWare\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\host_driver_version.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_spi\inc\spi_version.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\nvmem.h</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\basic_wifi_application.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\hci.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_spi\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>C:\StellarisWare\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BasicWiFiApplication.pbd</file>
+      <file>C:\StellarisWare\driverlib\systick.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>C:\StellarisWare\driverlib\rom_map.h</file>
+      <file>C:\StellarisWare\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\Source\Basic Wifi Application\board.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\src\socket.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\evnt_handler.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000HostDriver.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\Hyper Terminal Driver.a</file>
+      <file>C:\StellarisWare\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\..\Source\Basic Wifi Application\basic_wifi_application.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\socket.h</file>
+      <file>$PROJ_DIR$\Debug\List\startup_ewarm.lst</file>
+      <file>C:\StellarisWare\driverlib\uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>C:\StellarisWare\driverlib\udma.h</file>
+      <file>C:\StellarisWare\driverlib\gpio.h</file>
+      <file>C:\StellarisWare\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\include\common\cc3000_common.h</file>
+      <file>C:\StellarisWare\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\basic_wifi_application.pbi</file>
+      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120H5QR.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>C:\StellarisWare\inc\hw_nvic.h</file>
+      <file>C:\StellarisWare\driverlib\timer.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\List\basic_wifi_application.lst</file>
+      <file>$PROJ_DIR$\Debug\Exe\Example Application.out</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\security.h</file>
+      <file>C:\StellarisWare\driverlib\fpu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+      <file>C:\StellarisWare\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.h</file>
+      <file>C:\StellarisWare\driverlib\pin_map.h</file>
+      <file>C:\StellarisWare\utils\uartstdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\List\board.lst</file>
+      <file>C:\StellarisWare\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\..\Source\Basic Wifi Application\board.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\netapp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>C:\StellarisWare\driverlib\ssi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>C:\StellarisWare\grlib\grlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\BasicWiFiApplication.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\wlan.h</file>
+      <file>$PROJ_DIR$\..\Source\Basic Wifi Application\application_version.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>C:\StellarisWare\driverlib\ewarm-cm4f\Exe\driverlib-cm4f.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000Spi.a</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Basic Wifi Application\basic_wifi_application.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 36 66 15 31 40 44 20 21 64 62 10 11 22 8 28 4 61 9 0 32 60 68 58 42 16 14 48 12 65 55 30 35 63 53 17 41 37 34 54 25 50 1 33 3 18 70 2 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Example Application.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 39 72 23 73 24 6 49 27 43 71 52 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Basic Wifi Application\board.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 36 66 15 31 40 44 20 21 64 62 10 11 22 8 28 4 61 9 0 32 60 68 58 42 16 14 48 12 65 55 30 35 63 53 17 41 37 34 54 25 50 1 33 3 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 36 66 15 31 40 44 20 21 64 62 10 11 22 8 28 4 61 9 0 32 60 68 58 42 16 14 48 12 65 55 30 35 63 53 17 41 37 34 54 25 50 1 33 3 18</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

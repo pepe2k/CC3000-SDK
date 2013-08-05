@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>Example Application/Debug</Project><Project>CC3000HostDriver/Debug</Project><Project>CC3000Spi/Debug</Project><Project>Hyper Terminal Driver/Debug</Project></CurrentConfigs><CurrentProj>Example Application</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1534</ColumnWidth1></Debug-Log>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>218</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1150</ColumnWidth1><ColumnWidth2>306</ColumnWidth2><ColumnWidth3>76</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Find-in-Files><ColumnWidth0>954</ColumnWidth0><ColumnWidth1>249</ColumnWidth1><ColumnWidth2>942</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18004-28402</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/CC3000HostDriver</ExpandedNode><ExpandedNode>&lt;ws&gt;/CC3000HostDriver/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/CC3000Spi</ExpandedNode><ExpandedNode>&lt;ws&gt;/CC3000Spi/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/Example Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/Example Application/Libraries</ExpandedNode><ExpandedNode>&lt;ws&gt;/Example Application/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/Hyper Terminal Driver</ExpandedNode><ExpandedNode>&lt;ws&gt;/Hyper Terminal Driver/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/driverlib-cm4f</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-28752-28405</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-12901-29317</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-1528-30535</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\host_driver_version.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1907</SelStart><SelEnd>1907</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\Basic Wifi Application\application_version.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>736</SelStart><SelEnd>736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\HyperTerminal Driver\dispatcher.h</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>3194</SelStart><SelEnd>3194</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\hci.c</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>3179</SelStart><SelEnd>3179</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\socket.c</Filename><XPos>0</XPos><YPos>1349</YPos><SelStart>39827</SelStart><SelEnd>39827</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000 Spi\spi_version.h</Filename><XPos>0</XPos><YPos>33</YPos><SelStart>2216</SelStart><SelEnd>2216</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\inc\spi.h</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>2805</SelStart><SelEnd>2805</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\evnt_handler.c</Filename><XPos>0</XPos><YPos>455</YPos><SelStart>15357</SelStart><SelEnd>15357</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\startup_ewarm.c</Filename><XPos>0</XPos><YPos>85</YPos><SelStart>7591</SelStart><SelEnd>7591</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\wlan.c</Filename><XPos>0</XPos><YPos>741</YPos><SelStart>21969</SelStart><SelEnd>21969</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\StellarisWare\driverlib\sysctl.c</Filename><XPos>0</XPos><YPos>1803</YPos><SelStart>72722</SelStart><SelEnd>72722</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000HostDriver\hci.h</Filename><XPos>0</XPos><YPos>68</YPos><SelStart>4187</SelStart><SelEnd>4187</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\StellarisWare\driverlib\uart.c</Filename><XPos>0</XPos><YPos>1090</YPos><SelStart>37957</SelStart><SelEnd>37979</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\HyperTerminal Driver\dispatcher.c</Filename><XPos>0</XPos><YPos>169</YPos><SelStart>7062</SelStart><SelEnd>7062</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\CC3000 Spi\spi.c</Filename><XPos>0</XPos><YPos>1121</YPos><SelStart>32946</SelStart><SelEnd>32946</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\Basic Wifi Application\basic_wifi_application.c</Filename><XPos>0</XPos><YPos>942</YPos><SelStart>24638</SelStart><SelEnd>24638</SelEnd></Tab><ActiveTab>15</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\StellarisWare\driverlib\uart.h</Filename><XPos>0</XPos><YPos>229</YPos><SelStart>12353</SelStart><SelEnd>12375</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0147a950><key>iaridepm.enu1</key></Toolbar-0147a950></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes><Toolbar-08c4fbc8><key>debuggergui.enu1</key></Toolbar-08c4fbc8></Sizes></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>744</Bottom><Right>292</Right><x>-2</x><y>-2</y><xscreen>99</xscreen><yscreen>91</yscreen><sizeHorzCX>58929</sizeHorzCX><sizeHorzCY>93814</sizeHorzCY><sizeVertCX>175000</sizeVertCX><sizeVertCY>769072</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>182</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>184</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>189691</sizeHorzCY><sizeVertCX>58929</sizeVertCX><sizeVertCY>93814</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

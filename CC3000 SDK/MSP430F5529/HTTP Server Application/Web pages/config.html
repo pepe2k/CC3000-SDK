@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Texas Instument</title>
+<script type="text/javascript">
+var HTTPrequest = new XMLHttpRequest();
+var count = 0;
+var receivedResponse = 1;
+var sendNo=0;
+function ToggleLED(LEDnum)
+{
+	HTTPrequest.open("POST","/led-status?num="+LEDnum+"&action=toggle", true);
+	HTTPrequest.send();
+}
+
+function periodicUpdate(){
+	if(receivedResponse == 1 || count >= 4)
+	{
+		if(sendNo<3)
+		{
+			HTTPrequest.open("POST","/wheel-status?&action=getstatus-", true);
+			HTTPrequest.send();
+			receivedResponse = 0;
+			count = 0;
+			sendNo++;
+			HTTPrequest.onreadystatechange = function()
+			{
+				if (HTTPrequest.readyState==4 && HTTPrequest.status==200)
+				{
+					receivedResponse = 1;
+					sendNo=0;
+					var wheel = HTTPrequest.responseText.split(":");
+					var ch = wheel[2].charCodeAt(0);
+					for(var i=3; i<8; i++)
+					{
+						if(ch & 1)
+						{
+							document.getElementById("LEDno"+(i+1)).checked=true;
+							document.getElementById("LED"+(i+1)).style.color="green";
+						}
+						else
+						{
+							document.getElementById("LEDno"+(i+1)).checked=false;
+							document.getElementById("LED"+(i+1)).style.color="red";
+						}
+						ch = ch>>1;
+					}
+					var voltage = parseInt(wheel[1]);
+					document.getElementById("Wposition").innerHTML = wheel[0];
+					document.getElementById("Wvoltage").innerHTML = wheel[1];
+					voltage = voltage*100;
+					voltage = parseInt(voltage/4089);
+					if(parseInt(voltage) == 0)
+					{
+						document.getElementById("slider1").style.backgroundColor = "#FFFFFF";
+					}
+					else
+					{
+						document.getElementById("slider1").style.backgroundColor = "#008000";
+						document.getElementById("slider1").width=voltage + "%";	 
+					}
+				}
+			}
+		}
+	}
+	count = count + 1;
+	setTimeout(function () {periodicUpdate(); }, 1000);
+}
+</script>
+</head>
+<body onload="periodicUpdate()">
+<h1 align=center ><font color="red">CC3000 Web Server</font></h1>
+<h2 align=center><font color="red">Welcome To MSP430F5529 Board Configuration.</font></h2>
+<font size="4px">
+<table border="0" align=center width=1200px style="padding-top:40px">
+<tr><td width=600px valign="top" align=center>
+<p>MSP430F5529 board's LED configuration using CC3000 as a Server</p>
+<p>5 Led's to control.</p>
+<form>
+<input id="LEDno4" type="checkbox" name="LED_4" value="LED_4" onclick="ToggleLED('4')"><span id="LED4">LED 1</span><br>
+<input id="LEDno5" type="checkbox" name="LED_5" value="LED_5" onclick="ToggleLED('5')"><span id="LED5">LED 2</span><br>
+<input id="LEDno6" type="checkbox" name="LED_6" value="LED_6" onclick="ToggleLED('6')"><span id="LED6">LED 3</span><br>
+<input id="LEDno7" type="checkbox" name="LED_7" value="LED_7" onclick="ToggleLED('7')"><span id="LED7">LED 4</span><br>
+<input id="LEDno8" type="checkbox" name="LED_8" value="LED_8" onclick="ToggleLED('8')"><span id="LED8">LED 5</span><br><br>
+</form>
+</td>
+<td valign="top">
+<table width=600px border="0">
+<tr><td align=center>
+MSP430F5529 Wheel Status<br><br>
+<p>Wheel's Position = <b id="Wposition">0</b></p>
+<p>Voltage Across potentiometer = <b id="Wvoltage">0</b></p>
+</td></tr>
+<tr><td align=left style="padding-left:150px"><br>
+<table border="1" width=316px height=35px >
+<tr><td><table border="0" width=316px height=35px><tr><td id="slider1"></td><td></td></tr></table></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+</table>
+</font>
+<table border="0" align=center width=1200px style="padding-top:40px">
+<tr><td align=center><font size="5px"><a href="/index.html">Home</a></font></td></tr>
+</table>
+</body>
+</html>

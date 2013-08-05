@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1524493640</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\md5.pbi</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\Common.h</file>
+      <file>$PROJ_DIR$\..\Source\Board\board.c</file>
+      <file>$PROJ_DIR$\..\Source\Board\Wheel.c</file>
+      <file>$PROJ_DIR$\..\Source\Hyper Terminal Driver\dispatcher.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\cc3000.c</file>
+      <file>$PROJ_DIR$\..\Source\MD5\md5.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\FlashDB.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\FlashDbContent.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpAuth.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpCore.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDebug.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamic.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpStatic.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamicHandler.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpString.c</file>
+      <file>$PROJ_DIR$\low_level_init.c</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\WebServerApp.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpCore.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\FlashDbContent.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpAuth.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FlashDB.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpString.r43</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\wlan.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDynamic.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispatcher.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispatcher.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDynamicHandler.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpStatic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\TinyWebServer.d43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wheel.r43</file>
+      <file>$PROJ_DIR$\..\Source\Board\Wheel.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wheel.pbi</file>
+      <file>$PROJ_DIR$\..\Source\Board\Board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\WebServerApp.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpAuth.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDebug.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\WebServerApp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpStatic.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\FlashDB.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpCore.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDynamic.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\netapp.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TinyWebServer.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5529.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\socket.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\low_level_init.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\errno.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FlashDbContent.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\md5.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\nvmem.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\evnt_handler.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpString.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\low_level_init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDynamicHandler.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\HttpDebug.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\TinyWebServer.ulp</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamicHandler.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HTTPString.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\config_defs.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpAuth.h</file>
+      <file>$PROJ_DIR$\..\Source\Hyper Terminal Driver\dispatcher.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\cc3000.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\security.h</file>
+      <file>$PROJ_DIR$\..\Source\MD5\md5.h</file>
+      <file>$PROJ_DIR$\..\Source\inc\spi.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\application_version.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000 Spi\spi_version.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpStatic.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\host_driver_version.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\demo_config.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpResponse.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpHeaders.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDebug.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpConfig.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\FlashDB.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamic.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpCore.h</file>
+      <file>$PROJ_DIR$\..\Source\WebServer Application\HttpRequest.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Board\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 59 47 23 27 24 22 66 69 29 35 45 70 48 57 63 55 68 46 60 67 56 39 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Board\Wheel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 59 47 23 37 55 66 69 29 35 45 70 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Hyper Terminal Driver\dispatcher.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 61 59 47 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\cc3000.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 56 61 59 47 23 27 24 22 66 69 29 35 45 70 48 57 63 55 68 46 60 67 2 92 79 86 83 77 88 39 81 89 87 91 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\MD5\md5.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 66 69 29 35 45 70 48 57 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\FlashDB.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 97 78 83 66 69 29 35 45 70 48 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\FlashDbContent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpAuth.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 96 78 2 100 85 83 66 69 29 35 45 70 48 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpCore.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 94 99 93 78 100 80 96 95 98 90 83 66 69 29 35 45 70 48 57 24 22 63 55 60 56 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpDebug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 96 100 2 78 76 61 59 47 23 93 99 83 66 69 29 35 45 70 48 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpStatic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 96 100 2 78 93 99 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpDynamicHandler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 96 98 100 2 78 61 59 47 23 56 27 24 22 66 69 29 35 45 70 48 57 63 55 83 39 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\HttpString.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 66 69 29 35 45 70 48 57 22 78 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 61 59 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\WebServer Application\WebServerApp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 24 22 66 69 29 35 45 70 48 57 63 55 68 46 60 67 56 91 82 2 92 79 78 61 59 47 23 39 99 37 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

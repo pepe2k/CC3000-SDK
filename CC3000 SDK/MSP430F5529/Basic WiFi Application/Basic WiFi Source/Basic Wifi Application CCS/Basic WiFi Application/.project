@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Basic WiFi Application</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ti.ccstudio.core.ccsNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>basic_wifi_application.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Source/Basic%20Wifi%20Application/basic_wifi_application.c</locationURI>
+		</link>
+		<link>
+			<name>board.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Source/Basic%20Wifi%20Application/board.c</locationURI>
+		</link>
+		<link>
+			<name>Library/CC3000 Host Driver.lib</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/CC3000%20Host%20Driver/Debug/CC3000%20Host%20Driver.lib</locationURI>
+		</link>
+		<link>
+			<name>Library/CC3000 Spi.lib</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/CC3000%20Spi/Debug/CC3000%20Spi.lib</locationURI>
+		</link>
+		<link>
+			<name>Library/Hyper Terminal Driver.lib</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Hyper%20Terminal%20Driver/Debug/Hyper%20Terminal%20Driver.lib</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

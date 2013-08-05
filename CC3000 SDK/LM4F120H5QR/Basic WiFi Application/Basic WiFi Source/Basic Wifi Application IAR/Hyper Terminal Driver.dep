@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>438621802</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\core_driver\inc\hci.h</file>
+      <file>C:\StellarisWare\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.c</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_spi\inc\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>C:\StellarisWare\inc\hw_types.h</file>
+      <file>C:\StellarisWare\driverlib\systick.h</file>
+      <file>C:\StellarisWare\inc\hw_memmap.h</file>
+      <file>C:\StellarisWare\driverlib\interrupt.h</file>
+      <file>C:\StellarisWare\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispatcher.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>C:\StellarisWare\driverlib\pin_map.h</file>
+      <file>$PROJ_DIR$\..\Source\cc3000_host_driver\include\common\cc3000_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>C:\StellarisWare\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>C:\StellarisWare\driverlib\uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Hyper Terminal Driver.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>C:\StellarisWare\driverlib\udma.h</file>
+      <file>C:\StellarisWare\inc\hw_nvic.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>C:\StellarisWare\inc\hw_ints.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>C:\StellarisWare\utils\uartstdio.h</file>
+      <file>C:\StellarisWare\driverlib\rom_map.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>C:\StellarisWare\driverlib\gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 13 12 4 34 29 22 31 36 25 28 5 21 23 30 27 8 6 35 14 17 9 10 1 26 20 0 15 19 16 3 33 7 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

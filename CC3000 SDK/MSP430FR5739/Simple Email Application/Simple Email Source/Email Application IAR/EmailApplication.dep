@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>525857349</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\EmailApplication.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\EmailApplication.d43</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\smtp.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\errno.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\security.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\smtp.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430fr5739.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\smtp.h</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\version.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\cc3000_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\Source\inc\spi.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000 Spi\spi_version.h</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\board.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\nvmem.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\wlan.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\evnt_handler.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\netapp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\smtp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\EmailApplication.ulp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\socket.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000 Host Driver.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\HyperTerminalDriver.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC3000_Spi.r43</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\board.c</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\cc3000.c</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\demo.c</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\cc3000.h</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\common.h</file>
+      <file>$PROJ_DIR$\..\Source\HyperTerminal Driver\dispatcher.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\host_driver_version.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\..\Source\CC3000HostDriver\hci.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc3000.pbi</file>
+      <file>$PROJ_DIR$\..\Source\Simplemail\inc\smtp_gen.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\board.s43</file>
+      <file>$PROJ_DIR$\Debug\List\EmailApplication.map</file>
+      <file>$PROJ_DIR$\EmailApplication_lnk430fr5739.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\demo.lst</file>
+      <file>$PROJ_DIR$\Debug\List\board.lst</file>
+      <file>$PROJ_DIR$\Debug\List\cc3000.lst</file>
+      <file>$PROJ_DIR$\Debug\List\smtp.s43</file>
+      <file>$PROJ_DIR$\Debug\List\cc3000.s43</file>
+      <file>$PROJ_DIR$\Debug\List\demo.s43</file>
+      <file>$PROJ_DIR$\Debug\List\smtp.lst</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\EmailApplication.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 56 64 32 34 33 12 9 5 10 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Simplemail\smtp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 60 63 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8 11 4 6 38 24 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 19 47 13 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 4 6 38 24 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 19 47 13 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Simplemail\board.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 58 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 24 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Simplemail\cc3000.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 59 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38 24 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 19 47 18 41 40 31 29 17 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 24 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 19 47 18 41 40 31 29 17 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Simplemail\demo.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 62 57 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 24 38 19 47 40 31 29 14 18 41 13 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 4 6 21 15 16 22 30 44 49 43 46 27 45 3 42 23 48 28 20 39 24 38 19 47 40 31 29 14 18 41 13 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1 55</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\BasicWiFiApplication.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\CC3000HostDriver.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\CC3000Spi.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Hyper Terminal Driver.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>BuildAllProjects</name>
+      <member>
+        <project>CC3000HostDriver</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>Hyper Terminal Driver</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>Example Application</project>
+        <configuration>Debug</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
