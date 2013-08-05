@@ -582,6 +582,9 @@ SpiTriggerRxProcessing(void)
 	sSpiInformation.SPIRxHandler(sSpiInformation.pRxPacket + SPI_HEADER_SIZE);
 }
 
+#ifdef __GNUC__
+#define __even_in_range(x,y) x
+#endif
 //*****************************************************************************
 // 
 //!  IntSpiGPIOHandler

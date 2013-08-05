@@ -48,7 +48,11 @@
 #define SMART_CONFIG_CLEAR      0xFF
 
  
+#ifdef __GNUC__
+unsigned char * ptrFtcAtStartup;
+#else
 extern unsigned char * ptrFtcAtStartup;
+#endif
 //*****************************************************************************
 //
 //! pio_init

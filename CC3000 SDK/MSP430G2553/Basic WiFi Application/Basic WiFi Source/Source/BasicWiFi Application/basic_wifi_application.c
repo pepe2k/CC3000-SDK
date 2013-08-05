@@ -155,7 +155,7 @@ __no_init unsigned char pucCC3000_Rx_Buffer[CC3000_APP_BUFFER_SIZE + CC3000_RX_B
 //! @brief  Convert integer to ASCII in decimal base
 //
 //*****************************************************************************
-unsigned short itoa(char cNum, char *cString)
+unsigned short my_itoa(char cNum, char *cString)
 {
 	char* ptr;
 	char uTemp = cNum;
@@ -472,16 +472,16 @@ initDriver(void)
 		
 		
 		ccPtr = &cc3000IP[0];
-		ccLen = itoa(PALTFORM_VERSION, ccPtr);
+		ccLen = my_itoa(PALTFORM_VERSION, ccPtr);
 		ccPtr += ccLen;
 		*ccPtr++ = '.';
-		ccLen = itoa(APPLICATION_VERSION, ccPtr);
+		ccLen = my_itoa(APPLICATION_VERSION, ccPtr);
 		ccPtr += ccLen;
 		*ccPtr++ = '.';
-		ccLen = itoa(SPI_VERSION_NUMBER, ccPtr);
+		ccLen = my_itoa(SPI_VERSION_NUMBER, ccPtr);
 		ccPtr += ccLen;
 		*ccPtr++ = '.';
-		ccLen = itoa(DRIVER_VERSION_NUMBER, ccPtr);
+		ccLen = my_itoa(DRIVER_VERSION_NUMBER, ccPtr);
 		ccPtr += ccLen;
 		*ccPtr++ = '\f';
 		*ccPtr++ = '\r';

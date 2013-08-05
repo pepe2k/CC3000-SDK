@@ -65,6 +65,9 @@ __no_init unsigned char g_ucLength;
 
 int uart_have_cmd = 0;
 
+#ifdef __GNUC__
+#define __even_in_range(x,y) x
+#endif
 //*****************************************************************************
 //
 //! UARTIntHandler

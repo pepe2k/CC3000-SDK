@@ -46,7 +46,11 @@
 #define FIRST_TIME_CONFIG_SET 0xAA
 
 unsigned char * msp430_forced_restart_ptr = (unsigned char *)FRAM_FORCED_RES_ADDRESS;  
+#ifdef __GNUC__
+unsigned char * ptrFtcAtStartup = 0x1830;
+#else
 extern unsigned char * ptrFtcAtStartup;
+#endif
 //*****************************************************************************
 //
 //! pio_init
